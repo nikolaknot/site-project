@@ -1,0 +1,158 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+.site-wrap {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.site-wrap:before,
+.site-wrap:after {
+  content: " ";
+  display: table;
+}
+
+.site-wrap:after {
+  clear: both;
+}
+
+.main-picture {
+  float: left;
+}
+
+.main-picture-text {
+  float: right;
+ margin-top: 35px;
+ margin-left: 10px;
+}
+
+.phone-number {
+  margin-top: 25px;
+  float: right;
+}
+
+.number {
+  float: right;
+  color:#012E81;
+  font-size: 19px;
+}
+
+.navigation-bar {
+  background-color: #004288;
+  width: 1050px;
+  float: left;
+  border-color: #012271;
+  color: #FFFEFF;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  height: 35px;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.navigation-item {
+  background-color: #004288;
+  font-size: 14px;
+  border-right: 2px solid;
+  border-right-color: #34699F;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.navigation-link {
+  padding: 2px 35px;
+  text-decoration: none;
+  color: #FFFEFF;
+}
+.navigation-link:hover {
+  background-color: #111;
+}
+
+.house-picture {
+  position: relative;
+  width: 100%;
+}
+
+.transparent-div {
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  width: 450px;
+  background-color: rgb(192,192,192);
+  background-color: rgba(192,192,192,0.4);
+}
+.transparent-header {
+  color: white;
+  font-size: 36px;
+  color: #FFFEFF;
+}
+
+.transparent-text {
+  color: #FFFEFF;
+}
+
+.order-div {
+  top: 500px;
+  left: 220px;
+  position: absolute;
+  background-color: #6CA837;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #56822B;
+  height: 45px;
+  width: 170px;
+}
+
+.order-link {
+  float: left;
+  text-decoration: none;
+  color: #FFFEFF;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
