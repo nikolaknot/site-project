@@ -57,7 +57,7 @@ body {
 }
 
 .main-picture-text {
-  float: right;
+ float: right;
  margin-top: 35px;
  margin-left: 10px;
 }
@@ -107,17 +107,24 @@ body {
   color: #FFFEFF;
 }
 .navigation-link:hover {
-  background-color: #111;
+  background-color: #007CCE;
 }
 
 .house-picture {
+  background-image: url("../pictures/house.jpg");
+  background-repeat: no-repeat;
   position: relative;
-  width: 100%;
+  width: 1050px;
+  height: 500px;
+  top: 135px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D9D9D9;
 }
 
 .transparent-div {
   position: absolute;
-  top: 180px;
+  top: 100px;
   left: 90px;
   width: 450px;
   background-color: rgb(192,192,192);
@@ -134,7 +141,7 @@ body {
 }
 
 .order-div {
-  top: 500px;
+  top: 400px;
   left: 220px;
   position: absolute;
   background-color: #6CA837;
@@ -153,6 +160,15 @@ body {
   color: #FFFEFF;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+.services {
+  background-color: #FCFCFC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D9D9D9;
+  width: 262px;
+  height: 190px;
 }
 
 
