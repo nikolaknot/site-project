@@ -117,8 +117,6 @@ body {
   width: 100%;
   height: 500px;
   top: 135px;
-  border-style: solid;
-  border-width: 2px;
   border-color: #D9D9D9;
 }
 
@@ -131,17 +129,29 @@ body {
   background-color: rgba(192,192,192,0.4);
 }
 .transparent-header {
-  color: white;
-  font-size: 36px;
+  font-weight: lighter;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  font-family: Tahoma;
   color: #FFFEFF;
 }
 
 .transparent-text {
+  font-family: Tahoma;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
   color: #FFFEFF;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 
-.order-div {
-  top: 400px;
+.order-button {
+  top: 370px;
   left: 220px;
   position: absolute;
   background-color: #6CA837;
@@ -150,16 +160,15 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #56822B;
-  height: 45px;
   width: 170px;
+  height: 45px;
 }
 
 .order-link {
   float: left;
   text-decoration: none;
   color: #FFFEFF;
-  margin-top: 10px;
-  margin-left: 20px;
+  padding: 10px 19px;
 }
 
 .services {
