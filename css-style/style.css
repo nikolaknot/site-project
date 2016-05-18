@@ -96,19 +96,29 @@ body {
   background-color: #004288;
   font-size: 12px;
   border-right: 1px solid;
-  border-right-color: #34699F;
+  border-right-color: #023F76;
   display: inline-block;
   float: left;
+  box-shadow: 1px 0 0 #336CA3;
+}
+
+li:last-child{
+  border-right-color:
 }
 
 .navigation-link {
   text-decoration: none;
   color: #FFFEFF;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 10px 32px;
+  text-shadow: 1px 0 #00274A;
 }
 .navigation-item:hover {
   background-color: #0072CA;
+}
+
+.navigation-link:hover{
+  color: #8ACA5C;
 }
 
 .house-picture {
@@ -154,13 +164,13 @@ body {
   left: 220px;
   position: absolute;
   background-color: #6CA837;
-  font-size: 20px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #56822B;
-  width: 170px;
-  height: 45px;
+  border-color: #548228;
+  padding: 1px 10px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .order-link {
