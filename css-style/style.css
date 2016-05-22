@@ -98,6 +98,7 @@ body {
   font-size: 14px;
   border-right: 1px solid;
   border-right-color: #003D73;
+  border-right-color: #023F76;
   display: inline-block;
   float: left;
 }
@@ -164,23 +165,22 @@ body {
 
 .order-button {
   top: 370px;
-  left: 220px;
+  left: 200px;
   position: absolute;
   background-color: #6CA837;
-  font-size: 20px;
-  border-radius: 5px;
+  border-radius: 6px;
   border-style: solid;
   border-width: 1px;
-  border-color: #56822B;
-  width: 170px;
-  height: 45px;
+  border-color: #548228;
 }
 
 .order-link {
   float: left;
   text-decoration: none;
   color: #FFFEFF;
-  padding: 10px 19px;
+  font-size: 24px;
+  padding: 6px 22px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .services {
