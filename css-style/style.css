@@ -111,7 +111,7 @@ body {
   text-shadow: 1px 1px #012349;
 }
 
-li:last-child {
+.navigation-item:last-child{
   border-right-color: #004288;
 }
 
