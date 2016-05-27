@@ -342,3 +342,91 @@ body {
   font-family: "open Sans", sans-serif;
   font-weight: 300;
 }
+
+.developed-attorneys {
+  background-color: #004087;
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+}
+
+.developed-paragraph {
+  margin: 0;
+  color: #F6F5FA;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.developed-background {
+  background-color:#EEEEEE;
+  width: 100%;
+  float: left;
+  height: 130px;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-color: #8C8C8C;
+}
+
+.developed-info {
+  background-color: #FEFEFE;
+  border-color: #D9D9D9;
+  border-style: solid;
+  border-width: 1px;
+  margin: 20px 10px;
+}
+
+.developed-info-paragraph {
+  margin: 0;
+  line-height: 25px;
+  padding: 5px 15px;
+  font-weight: 300px;
+}
+
+.indetify-issue {
+  background-color: #004087;
+  width: 100%;
+  float: left;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+.indetify-paragraph {
+  margin: 0;
+  color: #F6F5FA;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.strong-reputation {
+  background-color: #004087;
+  width: 100%;
+  float: left;
+  margin-top: 1px;
+  border-radius: 5px;
+}
+
+.strong-reputation-paragraph {
+  margin: 0;
+  color: #F6F5FA;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.best-protection {
+  background-color: #004087;
+  width: 100%;
+  float: left;
+  margin-top: 1px;
+  border-radius: 5px
+}
+
+.best-protection-paragraph {
+  margin: 0;
+  color: #F6F5FA;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
