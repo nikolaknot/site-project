@@ -75,13 +75,14 @@ body {
 
 .navigation-bar {
   background-color: #004288;
-  width: 1050px;
+  width: 100%;
   float: left;
-  border-color: #00457C;
+  border-color: #012271;
   color: #FFFEFF;
   text-align: center;
   border-style: solid;
   border-width: 1px;
+  border-radius: 2px;
 }
 
 .navigation-list {
@@ -94,9 +95,10 @@ body {
 
 .navigation-item {
   background-color: #004288;
-  font-size: 12px;
+  font-size: 14px;
   border-right: 1px solid;
-  border-right-color: #34699F;
+  border-right-color: #003D73;
+  border-right-color: #023F76;
   display: inline-block;
   float: left;
 }
@@ -105,10 +107,21 @@ body {
   text-decoration: none;
   color: #FFFEFF;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 10px 30px;
+  box-shadow: inset 1px 0px #3578AF;
+  text-shadow: 1px 1px #012349;
 }
+
+.navigation-item:last-child{
+  border-right-color: #004288;
+}
+
 .navigation-item:hover {
   background-color: #0072CA;
+}
+
+.navigation-link:hover {
+  color: #88C961;
 }
 
 .house-picture {
@@ -132,13 +145,14 @@ body {
 .transparent-header {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 100;
   color: #FFFEFF;
+  line-height: 40px;
 }
 
 .transparent-text {
-  font-family: Tahoma;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
   margin-bottom: 0;
   margin-top: 0;
@@ -151,33 +165,70 @@ body {
 
 .order-button {
   top: 370px;
-  left: 220px;
+  left: 200px;
   position: absolute;
   background-color: #6CA837;
-  font-size: 20px;
-  border-radius: 5px;
+  border-radius: 6px;
   border-style: solid;
   border-width: 1px;
-  border-color: #56822B;
-  width: 170px;
-  height: 45px;
+  border-color: #548228;
 }
 
 .order-link {
   float: left;
   text-decoration: none;
   color: #FFFEFF;
-  padding: 10px 19px;
+  font-size: 24px;
+  padding: 6px 22px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.services {
+.user-panel {
+  border-bottom-color: #8F8F8F;
   background-color: #FCFCFC;
   border-style: solid;
   border-width: 1px;
   border-color: #D9D9D9;
-  width: 262px;
-  height: 190px;
   float: left;
+  width: 24.64%;
+  margin-top: 40px;
+  border-bottom-color: #8F8F8F;
+  margin-right: 5px;
 }
 
+.user-panel:hover {
+  background-color: #B2D195;
+}
 
+.user-panel-image {
+  margin: 10px auto;
+  display: block;
+}
+
+.user-panel-header {
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  color: black;
+  line-height: 20px;
+}
+
+.user-panel-paragraph {
+  color: #A0A09E;
+  margin: 0;
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.user-panel-wrap > :last-child .user-panel {
+  margin-right: 0px;
+}
+
+.features-paragraph {
+  float: left;
+  font-size: 38px;
+  margin: 30px 440px;
+  font-weight: 300;
+  color: #AFB1B0;
+}
