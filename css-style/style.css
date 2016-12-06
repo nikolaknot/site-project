@@ -8,6 +8,7 @@ body {
   background-color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  line-height: 21px;
 }
 
 /**
@@ -63,7 +64,7 @@ body {
 }
 
 .phone-number {
-  padding-top: 25px;
+  margin-top: 25px;
   float: right;
 }
 
@@ -71,12 +72,13 @@ body {
   float: right;
   color:#012E81;
   font-size: 19px;
+  padding: 17px 0px;
 }
 
 .navigation-bar {
+  float: left;
   background-color: #004288;
   width: 100%;
-  float: left;
   border-color: #012271;
   color: #FFFEFF;
   text-align: center;
@@ -95,11 +97,8 @@ body {
 
 .navigation-item {
   background-color: #004288;
-  font-size: 14px;
   border-right: 1px solid;
-  border-right-color: #003D73;
   border-right-color: #023F76;
-  display: inline-block;
   float: left;
 }
 
@@ -139,7 +138,6 @@ body {
   top: 100px;
   left: 90px;
   width: 450px;
-  background-color: rgb(192,192,192);
   background-color: rgba(192,192,192,0.4);
 }
 .transparent-header {
@@ -148,30 +146,22 @@ body {
   font-size: 40px;
   font-weight: 100;
   color: #FFFEFF;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .transparent-text {
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  margin-bottom: 0;
-  margin-top: 0;
   color: #FFFEFF;
-  font-size: 14px;
-  padding-left: 10px;
-  padding-right: 5px;
-  padding-bottom: 5px;
 }
 
 .order-button {
-  top: 370px;
-  left: 200px;
   position: absolute;
   background-color: #6CA837;
   border-radius: 6px;
   border-style: solid;
   border-width: 1px;
   border-color: #548228;
+  display: block;
+
 }
 
 .order-link {
@@ -179,8 +169,6 @@ body {
   text-decoration: none;
   color: #FFFEFF;
   font-size: 24px;
-  padding: 6px 22px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .services {
