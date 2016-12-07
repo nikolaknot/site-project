@@ -158,14 +158,15 @@ body {
   background-color: #6CA837;
   border-radius: 6px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #548228;
   display: block;
-
+  top:370px;
+  left: 200px;
+  padding: 15px 30px;
 }
 
 .order-link {
-  float: left;
   text-decoration: none;
   color: #FFFEFF;
   font-size: 24px;
@@ -180,6 +181,7 @@ body {
   float: left;
   width: 258px;
   margin-top: 40px;
+  margin-left: 3px;
   border-bottom-color: #8F8F8F;
 }
 
@@ -193,7 +195,6 @@ body {
 }
 
 .services-header {
-  font-family: "Open Sans", sans-serif;
   font-size: 26px;
   padding-left: 65px;
   margin: 0;
@@ -201,121 +202,9 @@ body {
 }
 
 .services-paragraph {
-  font-family: "Open Sans", sans-serif;
   color: #A0A09E;
   margin: 0;
   padding-left: 50px;
-  font-size: 19px;
-}
-
-.order {
-  background-color: #FCFCFC;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D9D9D9;
-  float: left;
-  width: 259px;
-  margin-top: 40px;
-  margin-left: 5px;
-  border-bottom-color: #8F8F8F;
-}
-
-.order:hover {
-  background-color: #B2D195;
-}
-
-.order-picture{
-  padding-top: 20px;
-  padding-left: 60px;
-}
-
-.order-header {
-  font-family: "Open Sans", sans-serif;
-  font-size: 26px;
-  padding-left: 80px;
-  margin: 0;
-  color: black;
-}
-
-.order-paragraph {
-  font-family: "Open Sans", sans-serif;
-  color: #A0A09E;
-  margin: 0;
-  padding-left: 50px;
-  font-size: 19px;
-}
-
-.faq {
-  border-bottom-color: #8F8F8F;
-  background-color: #FCFCFC;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D9D9D9;
-  float: left;
-  width: 259px;
-  margin-top: 40px;
-  margin-left: 5px;
-  border-bottom-color: #8F8F8F;
-}
-
-.faq:hover {
-  background-color: #B2D195;
-}
-
-.faq-picture {
-  padding-top: 20px;
-  padding-left: 70px;
-}
-
-.faq-header{
-  font-family: "Open Sans", sans-serif;
-  font-size: 26px;
-  padding-left: 98px;
-  margin: 0;
-  color: black;
-}
-
-.faq-paragraph {
-  font-family: "Open Sans", sans-serif;
-  color: #A0A09E;
-  margin: 0;
-  padding-left: 50px;
-  font-size: 19px;
-}
-
-.login {
-  border-bottom-color: #8F8F8F;
-  background-color: #FCFCFC;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D9D9D9;
-  float: left;
-  width: 259px;
-  margin-top: 40px;
-  margin-left: 5px;
-  border-bottom-color: #8F8F8F;
-}
-
-.login:hover {
-  background-color: #B2D195;
-}
-
-.login-picture {
-  padding-top: 20px;
-  padding-left: 70px;
-}
-
-.login-header {
-  font-size: 26px;
-  padding-left: 85px;
-  margin: 0;
-  color: black;
-}
-
-.login-paragraph {
-  color: #A0A09E;
-  margin: 0;
-  padding-left: 65px;
   font-size: 19px;
 }
 
