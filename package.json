@@ -1,0 +1,19 @@
+{
+  "name": "site-project",
+  "version": "1.0.0",
+  "description": "html css practice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaknot/site-project.git"
+  },
+  "author": "nikolaknot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaknot/site-project/issues"
+  },
+  "homepage": "https://github.com/nikolaknot/site-project#readme"
+}

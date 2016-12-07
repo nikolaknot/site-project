@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "id": "prod_test",
   "viewports": [
     {
@@ -15,10 +16,18 @@
       "name": "tablet_h",
       "width": 1024,
       "height": 768
+=======
+  "viewports": [
+    {
+      "name": "desktop - full HD",
+      "width": 1920,
+      "height": 1080
+>>>>>>> 01f4cebddc58779be1c3758ef11619eeeb7f8ca6
     }
   ],
   "scenarios": [
     {
+<<<<<<< HEAD
       "label": "BackstopJS Homepage",
       "url": "https://garris.github.io/BackstopJS/",
       "hideSelectors": [],
@@ -32,6 +41,16 @@
         ".secondPanel",
         ".finalWords",
         "footer"
+=======
+      "label": "Site project",
+      "url": "http://localhost:8000",
+      "hideSelectors": [],
+      "removeSelectors": [
+
+      ],
+      "selectors": [
+        "body"
+>>>>>>> 01f4cebddc58779be1c3758ef11619eeeb7f8ca6
       ],
       "readyEvent": null,
       "delay": 500,
@@ -41,6 +60,7 @@
     }
   ],
   "paths": {
+<<<<<<< HEAD
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "backstop_data/bitmaps_test",
     "casper_scripts": "backstop_data/casper_scripts",
@@ -51,4 +71,16 @@
   "engine": "phantomjs",
   "report": ["browser"],
   "debug": false
+=======
+    "bitmaps_reference": "../../backstop_data/bitmaps_reference",
+    "bitmaps_test": "../../backstop_data/bitmaps_test",
+    "compare_data": "../../backstop_data/bitmaps_test/compare.json",
+    "casper_scripts": "../../backstop_data/casper_scripts"
+  },
+  "engine": "phantomjs",
+  "report": ["CLI", "browser"],
+  "casperFlags": [],
+  "debug": false,
+  "port": 3001
+>>>>>>> 01f4cebddc58779be1c3758ef11619eeeb7f8ca6
 }
