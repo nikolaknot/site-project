@@ -163,57 +163,74 @@ body {
   display: block;
   top:370px;
   left: 200px;
-  padding: 15px 30px;
-}
-
-.order-link {
-  text-decoration: none;
+  padding: 12px 24px;
   color: #FFFEFF;
   font-size: 24px;
 }
 
-.services {
+.shop-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.shop {
+  width: 100%;
+  margin-top: 40px;
+  float: left;
+}
+
+.shop-container {
   border-bottom-color: #8F8F8F;
   background-color: #FCFCFC;
   border-style: solid;
   border-width: 1px;
   border-color: #D9D9D9;
   float: left;
-  width: 258px;
-  margin-top: 40px;
-  margin-left: 3px;
+  width: 259.5px;
   border-bottom-color: #8F8F8F;
 }
 
-.services:hover {
+.shop-container:hover {
   background-color: #B2D195;
 }
 
-.services-picture{
-  padding-top: 20px;
-  padding-left: 70px;
+.shop-image{
+  margin: 0 70px;
+  margin-top: 15px;
 }
 
-.services-header {
+.shop-header {
   font-size: 26px;
-  padding-left: 65px;
-  margin: 0;
+  margin: 0 68px;
   color: black;
+  line-height: 1.5;
 }
 
-.services-paragraph {
+/* Iz nekog meni nepoznatog razloga ne zeli da selektuje 3ci element unutar parent div-a.
+
+.shop-container h2:nth-child(3){
+  margin: 0 80px;
+}
+
+*/
+
+.shop-text {
   color: #A0A09E;
-  margin: 0;
-  padding-left: 50px;
+  margin: 0 53px;
   font-size: 19px;
 }
 
-.features-paragraph {
+.features-header {
+  float: left;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.features-header h1 {
   float: left;
   color: #898F8D;
-  margin: 0;
-  padding: 30px 438px;
-  font-size: 38px;
+  margin: 0 40%;
+  font-size: 42px;
   font-weight: 300;
 }
 
